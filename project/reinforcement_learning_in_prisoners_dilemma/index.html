@@ -1,0 +1,441 @@
+<!doctype html>
+<html lang="en">
+  <head>
+  <meta charset="utf-8">
+<title>Reinforcement Learning in Prisoners Dilemma - Grace Chen&#39;s website</title>
+<meta name="description" content="My personal website">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<meta name="twitter:card" content="summary_large_image">
+
+<meta property="og:site_name" content="Grace Chen&#39;s website">
+<meta property="og:title" content="Reinforcement Learning in Prisoners Dilemma">
+<meta property="og:description" content="My personal website">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://gracechen-0403.github.io/project/reinforcement_learning_in_prisoners_dilemma/">
+  <meta property="og:image" content="https://gracechen-0403.github.io/images/profile.jpg">
+
+
+
+  <link rel="manifest" href="/favicon/site.webmanifest?v=1">
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png?v=1">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png?v=1">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png?v=1">
+  
+    <link rel="mask-icon" href="/favicon/safari-pinned-tab.svg?v=1" color="#ffffff">
+    <link rel="shortcut icon" href="/favicon/favicon.ico?v=1">
+    <meta name="msapplication-config" content="/favicon/browserconfig.xml?v=1">
+  
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="theme-color" content="#ffffff">
+
+
+  <meta name="generator" content="Hugo 0.102.3" />
+  <link rel="stylesheet" href="/css/bundle.min.5233f2a4cd515395301b4154f6c1c621695e8cf53faa0935b76ac52fed7f4585.css" integrity="sha256-UjPypM1RU5UwG0FU9sHGIWlejPU/qgk1t2rFL&#43;1/RYU="><link rel="stylesheet" href="/css/add-on.css">
+</head>
+
+  <body>
+    
+
+<header id="site-header">
+  <nav id="site-nav">
+    <h1 class="nav-title">
+      <a href="/" class="nav">
+        
+          Reinforcement Learning in Prisoners Dilemma
+        
+      </a>
+    </h1>
+    <menu id="site-nav-menu" class="flyout-menu menu">
+      
+        
+          
+          <a href="/" class="nav link"><i class='fa fa-home'></i> Home</a>
+        
+      
+        
+          
+          <a href="/about" class="nav link"><i class='far fa-id-card'></i> About</a>
+        
+      
+        
+          
+          <a href="/blog" class="nav link"><i class='far fa-newspaper'></i> Blog</a>
+        
+      
+        
+          
+          <a href="/project" class="nav link"><i class='fas fa-sitemap'></i> Projects</a>
+        
+      
+        
+          
+          <a href="/resume.pdf" class="nav link"><i class='fas fa-file-alt'></i> Resume</a>
+        
+      
+      <a href="#share-menu" class="nav link share-toggle"><i class="fas fa-share-alt">&nbsp;</i>Share</a>
+      <a href="#search-input" class="nav link search-toggle"><i class="fas fa-search">&nbsp;</i>Search</a>
+    </menu>
+    <a href="#search-input" class="nav search-toggle"><i class="fas fa-search fa-2x">&nbsp;</i></a>
+    <a href="#share-menu" class="nav share-toggle"><i class="fas fa-share-alt fa-2x">&nbsp;</i></a>
+    
+    <a href="#site-nav" class="nav nav-toggle"><i class="fas fa-bars fa-2x"></i></a>
+  </nav>
+  <menu id="search" class="menu"><input id="search-input" class="search-input menu"></input><div id="search-results" class="search-results menu"></div></menu>
+  
+  
+    <menu id="share-menu" class="flyout-menu menu">
+      <h1>Share Post</h1>
+      
+
+
+
+
+  
+    
+    <a href="//twitter.com/share?text=Reinforcement%20Learning%20in%20Prisoners%20Dilemma&amp;url=https%3a%2f%2fgracechen-0403.github.io%2fproject%2freinforcement_learning_in_prisoners_dilemma%2f" target="_blank" rel="noopener" class="nav share-btn twitter">
+        <p>Twitter</p>
+      </a>
+  
+
+  
+      <a href="//www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fgracechen-0403.github.io%2fproject%2freinforcement_learning_in_prisoners_dilemma%2f" target="_blank" rel="noopener" class="nav share-btn facebook">
+        <p>Facebook</p>
+        </a>
+  
+
+  
+    <a href="//www.reddit.com/submit?url=https%3a%2f%2fgracechen-0403.github.io%2fproject%2freinforcement_learning_in_prisoners_dilemma%2f&amp;title=Reinforcement%20Learning%20in%20Prisoners%20Dilemma" target="_blank" rel="noopener" class="nav share-btn reddit">
+          <p>Reddit</p>
+        </a>
+  
+
+  
+        <a href="//www.linkedin.com/shareArticle?url=https%3a%2f%2fgracechen-0403.github.io%2fproject%2freinforcement_learning_in_prisoners_dilemma%2f&amp;title=Reinforcement%20Learning%20in%20Prisoners%20Dilemma" target="_blank" rel="noopener" class="nav share-btn linkedin">
+            <p>LinkedIn</p>
+          </a>
+  
+
+  
+        <a href="//www.pinterest.com/pin/create/button/?url=https%3a%2f%2fgracechen-0403.github.io%2fproject%2freinforcement_learning_in_prisoners_dilemma%2f&amp;description=Reinforcement%20Learning%20in%20Prisoners%20Dilemma" target="_blank" rel="noopener" class="nav share-btn pinterest">
+          <p>Pinterest</p>
+        </a>
+  
+
+  
+        <a href="mailto:?subject=Check%20out%20this%20post%20by %7b%20%20%20%20%20%20%20%20map%5b%5d%7d&amp;body=https%3a%2f%2fgracechen-0403.github.io%2fproject%2freinforcement_learning_in_prisoners_dilemma%2f" target="_blank" class="nav share-btn email" data-proofer-ignore>
+          <p>Email</p>
+        </a>
+  
+
+
+    </menu>
+  
+</header>
+
+    <div id="wrapper">
+      <section id="site-intro" >
+  <a href="/"><img src="/images/profile.jpg" class="circle" width="150" alt="Grace Chen" /></a>
+  <header>
+    <h1>Grace Chen</h1>
+  </header>
+  <main>
+    <p>CSIE@NTU</p>
+  </main>
+  
+    <footer>
+      <ul class="socnet-icons">
+        
+        <li><a href="//github.com/gracechen-0403" target="_blank" rel="noopener" title="GitHub" class="fab fa-github"></a></li>
+
+
+
+
+
+
+
+
+
+
+
+<li><a href="//www.linkedin.com/in/gracechen0403" target="_blank" rel="noopener" title="LinkedIn" class="fab fa-linkedin"></a></li>
+
+
+
+
+<li><a href="//facebook.com/amazingraceeeee" target="_blank" rel="noopener" title="Facebook" class="fab fa-facebook"></a></li>
+
+
+
+
+<li><a href="//api.whatsapp.com/send?phone=%2b886%20910%20806%20950" target="_blank" rel="noopener" title="WhatsApp" class="fab fa-whatsapp"></a></li>
+
+
+
+<li><a href="//instagram.com/gracethedisgrace__" target="_blank" rel="noopener" title="Instagram" class="fab fa-instagram"></a></li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li><a href="mailto:mailto:b09902003@csie.ntu.edu.tw" target="_blank" title="Email" class="far fa-envelope"></a></li>
+
+      </ul>
+    </footer>
+  
+</section>
+
+      <main id="site-main">
+        
+  <article>
+    <div class="post">
+      <header>
+  <div class="title">
+    
+      <h2><a href="/project/reinforcement_learning_in_prisoners_dilemma/">Reinforcement Learning in Prisoners Dilemma</a></h2>
+    
+    
+  </div>
+  <div class="meta">
+    <time datetime="2022-10-11 23:22:54 &#43;0200 CEST">October 11, 2022</time>
+    
+    <p>1-Minute Read</p>
+  </div>
+</header>
+
+      <div id="socnet-share">
+        
+
+
+
+
+  
+    
+    <a href="//twitter.com/share?text=Reinforcement%20Learning%20in%20Prisoners%20Dilemma&amp;url=https%3a%2f%2fgracechen-0403.github.io%2fproject%2freinforcement_learning_in_prisoners_dilemma%2f" target="_blank" rel="noopener" class="nav share-btn twitter">
+        <p>Twitter</p>
+      </a>
+  
+
+  
+      <a href="//www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fgracechen-0403.github.io%2fproject%2freinforcement_learning_in_prisoners_dilemma%2f" target="_blank" rel="noopener" class="nav share-btn facebook">
+        <p>Facebook</p>
+        </a>
+  
+
+  
+    <a href="//www.reddit.com/submit?url=https%3a%2f%2fgracechen-0403.github.io%2fproject%2freinforcement_learning_in_prisoners_dilemma%2f&amp;title=Reinforcement%20Learning%20in%20Prisoners%20Dilemma" target="_blank" rel="noopener" class="nav share-btn reddit">
+          <p>Reddit</p>
+        </a>
+  
+
+  
+        <a href="//www.linkedin.com/shareArticle?url=https%3a%2f%2fgracechen-0403.github.io%2fproject%2freinforcement_learning_in_prisoners_dilemma%2f&amp;title=Reinforcement%20Learning%20in%20Prisoners%20Dilemma" target="_blank" rel="noopener" class="nav share-btn linkedin">
+            <p>LinkedIn</p>
+          </a>
+  
+
+  
+        <a href="//www.pinterest.com/pin/create/button/?url=https%3a%2f%2fgracechen-0403.github.io%2fproject%2freinforcement_learning_in_prisoners_dilemma%2f&amp;description=Reinforcement%20Learning%20in%20Prisoners%20Dilemma" target="_blank" rel="noopener" class="nav share-btn pinterest">
+          <p>Pinterest</p>
+        </a>
+  
+
+  
+        <a href="mailto:?subject=Check%20out%20this%20post%20by %7b%20%20%20%20%20%20%20%20map%5b%5d%7d&amp;body=https%3a%2f%2fgracechen-0403.github.io%2fproject%2freinforcement_learning_in_prisoners_dilemma%2f" target="_blank" class="nav share-btn email" data-proofer-ignore>
+          <p>Email</p>
+        </a>
+  
+
+
+      </div>
+      <div class="content">
+        
+        
+        <p>Coming soon&hellip;</p>
+
+      </div>
+      <footer>
+        <div class="stats">
+  
+    <ul class="categories">
+      <li>None</li>
+    </ul>
+  
+  
+    <ul class="tags">
+      <li>None</li>
+    </ul>
+  
+</div>
+
+      </footer>
+    </div>
+    
+      
+  <script src='https://utteranc.es/client.js'
+          repo=''
+          issue-term='pathname'
+          issue-number=''
+          label=''
+          theme='github-light'
+          crossorigin='anonymous'
+          async>
+  </script>
+
+
+
+
+    
+  </article>
+  <div class="pagination">
+    
+    
+  </div>
+
+      </main>
+      <section id="site-sidebar">
+  
+    <section id="recent-posts">
+      <header>
+        <h1>Recent Posts</h1>
+      </header>
+      
+      <article class="mini-post">
+          <a href="/blog/gent/" class="image" style="--bg-image: url('/images/gent.jpg');">
+    <img src="/images/gent.jpg" alt="">
+  </a>
+        <header>
+          <h2><a href="/blog/gent/">Gent</a></h2>
+          <time class="published" datetime="2022-10-11 23:25:54 &#43;0200 CEST">October 11, 2022</time>
+        </header>
+      </article>
+      
+      <article class="mini-post">
+          <a href="/blog/paris/" class="image" style="--bg-image: url('/images/paris.jpg');">
+    <img src="/images/paris.jpg" alt="">
+  </a>
+        <header>
+          <h2><a href="/blog/paris/">Paris</a></h2>
+          <time class="published" datetime="2022-10-11 23:25:18 &#43;0200 CEST">October 11, 2022</time>
+        </header>
+      </article>
+      
+      <article class="mini-post">
+          <a href="/blog/giethoorn/" class="image" style="--bg-image: url('/images/giethoorn.jpg');">
+    <img src="/images/giethoorn.jpg" alt="">
+  </a>
+        <header>
+          <h2><a href="/blog/giethoorn/">Giethoorn</a></h2>
+          <time class="published" datetime="2022-10-11 23:24:28 &#43;0200 CEST">October 11, 2022</time>
+        </header>
+      </article>
+      
+      
+        <footer>
+          <a href="/blog" class="button">See More</a>
+        </footer>
+      
+    </section>
+  
+
+  
+    
+
+      <section id="categories">
+        <header>
+          <h1><a href="/categories">Categories</a></h1>
+        </header>
+        <ul>
+          
+          
+          </li>
+        </ul>
+      </section>
+    
+  
+
+  
+    <section id="mini-bio">
+      <header>
+        <h1>About</h1>
+      </header>
+      <p>My name is Grace Chen, a CSIE major at NTU.</p>
+      <footer>
+        <a href="/about" class="button">Learn More</a>
+      </footer>
+    </section>
+  
+</section>
+
+      <footer id="site-footer">
+  
+      <ul class="socnet-icons">
+        
+
+        <li><a href="//github.com/gracechen-0403" target="_blank" rel="noopener" title="GitHub" class="fab fa-github"></a></li>
+
+
+
+
+
+
+
+
+
+
+
+<li><a href="//www.linkedin.com/in/gracechen0403" target="_blank" rel="noopener" title="LinkedIn" class="fab fa-linkedin"></a></li>
+
+
+
+
+<li><a href="//facebook.com/amazingraceeeee" target="_blank" rel="noopener" title="Facebook" class="fab fa-facebook"></a></li>
+
+
+
+
+<li><a href="//api.whatsapp.com/send?phone=%2b886%20910%20806%20950" target="_blank" rel="noopener" title="WhatsApp" class="fab fa-whatsapp"></a></li>
+
+
+
+<li><a href="//instagram.com/gracethedisgrace__" target="_blank" rel="noopener" title="Instagram" class="fab fa-instagram"></a></li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li><a href="mailto:mailto:b09902003@csie.ntu.edu.tw" target="_blank" title="Email" class="far fa-envelope"></a></li>
+
+      </ul>
+  
+  <p class="copyright">
+    © 2022 Grace Chen&#39;s website
+      <br>
+    Theme: <a href='https://github.com/pacollins/hugo-future-imperfect-slim' target='_blank' rel='noopener'>Hugo Future Imperfect Slim</a><br>A <a href='https://html5up.net/future-imperfect' target='_blank' rel='noopener'>HTML5 UP port</a> | Powered by <a href='https://gohugo.io/' title='0.102.3' target='_blank' rel='noopener'>Hugo</a>
+  </p>
+</footer>
+<a id="back-to-top" href="#" class="fas fa-arrow-up fa-2x"></a>
+
+      <script src="/js/highlight.js"></script>
+    
+    <script>hljs.highlightAll();</script><script src="/js/bundle.min.d0fbe342a5f1cd965e029c2e4654a9943968c11d43b037938dd6dc6b79787d00.js" integrity="sha256-0PvjQqXxzZZeApwuRlSplDlowR1DsDeTjdbca3l4fQA="></script>
+    <script src="/js/add-on.js"></script>
+    </div>
+  </body>
+</html>

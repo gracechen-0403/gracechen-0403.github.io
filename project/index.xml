@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Project on Grace Chen&#39;s website</title>
+    <link>https://gracechen-0403.github.io/project/</link>
+    <description>Recent content in Project on Grace Chen&#39;s website</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 11 Oct 2022 23:19:49 +0200</lastBuildDate><atom:link href="https://gracechen-0403.github.io/project/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Reinforcement Learning in Prisoners Dilemma</title>
+      <link>https://gracechen-0403.github.io/project/reinforcement_learning_in_prisoners_dilemma/</link>
+      <pubDate>Tue, 11 Oct 2022 23:22:54 +0200</pubDate>
+      
+      <guid>https://gracechen-0403.github.io/project/reinforcement_learning_in_prisoners_dilemma/</guid>
+      <description>Coming soon&amp;hellip;</description>
+    </item>
+    
+  </channel>
+</rss>

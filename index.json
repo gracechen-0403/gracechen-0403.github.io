@@ -1,0 +1,31 @@
+[{
+    "title": "Gent",
+    "date": "",
+    "description": "",
+    "body": "",
+    "ref": "/blog/gent/"
+  },{
+    "title": "Paris",
+    "date": "",
+    "description": "",
+    "body": "",
+    "ref": "/blog/paris/"
+  },{
+    "title": "Giethoorn",
+    "date": "",
+    "description": "",
+    "body": "",
+    "ref": "/blog/giethoorn/"
+  },{
+    "title": "Reinforcement Learning in Prisoners Dilemma",
+    "date": "",
+    "description": "",
+    "body": "Coming soon\u0026hellip;\n",
+    "ref": "/project/reinforcement_learning_in_prisoners_dilemma/"
+  },{
+    "title": "About",
+    "date": "",
+    "description": "",
+    "body": "I am a junior majoring in Computer Science and Information Engineering from National Taiwan University (NTU). Now I am an exchange student at University of Groningen (RUG) in the Netherlands.\nMy research interest lies in machine/deep learning and artificial intelligence.\n🎓Education National Taiwan University\nSep. 2020 - Present\nBS in Computer Science\nUniversity of Groningen\nSep. 2022 - Jun. 2023\nOne-year exchange student\n✔️Experience Technical - Engineer Practicum Intern June 2022 - Aug 2022\nGOOGLE LLC, Taipei, Taiwan\nDesigned an solution to test coverage inconsistencies due to test flakiness or the fact that tests are skipped on certain builds. Connected Google App Engine, Google Cloud Platform, and Cloud SQL within a Python script to save the coverage reports for all ChromeOS versions and the overall coverage results. Built up a website that displays a line chart showing the consistent test coverage trend and gives the link to each coverage report along with its overall coverage percentage. Research Assistant\nSep 2021 - Present\nACADEMIA SINICA, Taipei, Taiwan\nImplemented the prisoner’s dilemma model with reinforcement learning, where players update their strategies according to their previous experience instead of their neighbors’ payoff. Implemented the coevolving network model where players play a prisoner’s dilemma with the ability to adapt by using different strategies with different neighbors. Built up the pair approximation equations for the coevolving network model and used deep learning to predict the dynamics. ",
+    "ref": "/about/"
+  }]

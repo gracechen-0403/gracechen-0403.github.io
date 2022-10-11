@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blog on Grace Chen&#39;s website</title>
+    <link>https://gracechen-0403.github.io/blog/</link>
+    <description>Recent content in Blog on Grace Chen&#39;s website</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 11 Oct 2022 23:18:21 +0200</lastBuildDate><atom:link href="https://gracechen-0403.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Gent</title>
+      <link>https://gracechen-0403.github.io/blog/gent/</link>
+      <pubDate>Tue, 11 Oct 2022 23:25:54 +0200</pubDate>
+      
+      <guid>https://gracechen-0403.github.io/blog/gent/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Paris</title>
+      <link>https://gracechen-0403.github.io/blog/paris/</link>
+      <pubDate>Tue, 11 Oct 2022 23:25:18 +0200</pubDate>
+      
+      <guid>https://gracechen-0403.github.io/blog/paris/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Giethoorn</title>
+      <link>https://gracechen-0403.github.io/blog/giethoorn/</link>
+      <pubDate>Tue, 11 Oct 2022 23:24:28 +0200</pubDate>
+      
+      <guid>https://gracechen-0403.github.io/blog/giethoorn/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
